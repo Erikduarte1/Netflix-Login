@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+body::before{
+    content: "";
+    background-color: rgba(32, 29, 29, 0.452);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+header > img{
+    height: 55px;
+    padding-left: 150px;
+    padding-top: 20px;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+
+header{
+    background: url(background.jpg) center center/cover no-repeat;
+    height: 630px;
+}
+
+main{
+    background-color: black;
+    height: 260px;
+}
+
+aside{
+    width: 450px;
+    height: 550px;
+    margin: 300px;
+    margin-top: 20px;
+    margin-left: 450px;
+    background-color: rgba(0, 0, 0, 0.726);
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+}
+
+aside > form{
+    text-align: center;
+    padding: 100px;
+    padding-top: 0px;
+    padding-left: 83px;
+}
+
+aside > form > input{
+    width: 270px;
+    height: 30px;
+    padding: 10px;
+    margin-top: 15px;
+    position: relative;
+    background-color: rgba(31, 27, 27, 0.753);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.288);
+    font-size: 11pt;
+    border-radius: 5px;
+}
+
+h1{
+    padding-bottom: 15px;
+    padding-top: 50px;
+    padding-left: 80px;
+    color: white;
+    text-align: left;
+    position: relative;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23pt;
+}
+
+aside > form > .botao{
+    cursor: pointer;
+    width: 290px;
+    height: 40px;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+}
+
+aside > form > .botao:hover{
+    background-color: #e50914d5;
+    transition: 0.3s;
+}
+
+aside > form > p{
+    color: rgba(255, 255, 255, 0.555);
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+aside > form > .acesso{
+    margin-top: 15px;
+    cursor: pointer;
+    width: 290px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(82, 79, 79, 0.473);
+    text-decoration: none;
+    border: none;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside > form > .acesso:hover{
+    background-color: rgba(54, 52, 52, 0.445);
+    transition: 0.3s;
+}
+
+aside > form > p > a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+aside > form > p > a:hover{
+   color: rgb(134, 131, 131);
+   text-decoration: underline;
+}
+
+aside > form > .assine{
+    padding-top: 25px;
+    font-size: 15pt;
+    font-family: none;
+}
+
+aside > form > .assine > a{
+    text-decoration: none;
+    
+}
+
+aside > form > .assine > a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+::placeholder{
+    color:rgba(255, 255, 255, 0.678)
+}
+
+aside > form > .texto{
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 9.9pt;
+    width: 275px;
+}
+
+aside > form .texto > a{
+    color: rgb(0, 89, 255);
+}
+
+aside > form .texto > a:hover{
+    color: rgb(0, 110, 255);
+}
+
+main > nav{
+    margin-top: 300px;
+    margin-left: 130px;
+    font-size: 11pt;
+    
+}
+main > nav > a{
+    color: rgba(255, 255, 255, 0.637);
+    padding-right: 130px;
+}
+
+main > article > a{
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+main > div{
+    margin-top: 30px;
+    padding-left: 128px;
+    font-size: 11pt;
+    
+}
+
+main > div > a{
+    color: rgba(255, 255, 255, 0.637);
+    padding-right: 104px;
+}
+
+main > nav >  p{
+    color: rgba(255, 255, 255, 0.637);
+    padding-bottom: 30px;
+    font-size: 14pt;    
+}
+
+main > nav >  p > a{
+    color: rgba(255, 255, 255, 0.637);
+    text-decoration: none;
+}
+
+main > nav >  p > a:hover{
+    text-decoration: underline;
+}
+
+main > select{
+    margin-left: 126px;
+    margin-top: 30px;
+    width: 140px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 12pt;
+}
+
+main > select > option{
+    color: black;
+    background-color: white;
+    font-size: 12pt;
+    text-align: center;
+}
+
